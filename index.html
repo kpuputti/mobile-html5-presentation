@@ -5,6 +5,10 @@
     <title>Mobile HTML5 in the open world</title>
     <link rel="stylesheet" href="reveal/css/main.css">
     <link rel="stylesheet" href="reveal/css/theme/default.css">
+    <style>
+      #map { width: 100%; height: 200px; }
+      #geolocation-note { display: none; margin-top: 1em; }
+    </style>
   </head>
   <body>
 
@@ -16,9 +20,7 @@
         <section>
           <h1>Mobile HTML5 in the open world</h1>
           <hr>
-          <h3>
-            Kimmo Puputti &#9734; OKFestival Sep 19, 2012
-          </h3>
+          <h3>Kimmo Puputti &#9734; OKFestival Sep 19, 2012</h3>
           <p>
             <a href="https://twitter.com/kpuputti">@kpuputti</a><br>
             <a href="mailto:kimmo.puputti@futurice.com">kimmo.puputti@futurice.com</a>
@@ -57,7 +59,18 @@
         <!-- WHAT IS HTML5? -->
 
         <section>
-          <h2>What is HTML5?</h2>
+
+          <section>
+            <h2>What is HTML5?</h2>
+          </section>
+
+          <section>
+            <h2>Geolocation</h2>
+            <p><a href="#" id="locate-me">Locate me!</a></p>
+            <div id="map"></div>
+            <p id="geolocation-note">Works also on mobile!</p>
+          </section>
+
         </section>
 
         <!-- WHY SHOULD I CARE? -->
@@ -120,5 +133,7 @@
         transition: 'default'
       });
     </script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=true"></script>
+    <script src="presentation.js"></script>
   </body>
 </html>
