@@ -1,0 +1,16 @@
+CACHE MANIFEST
+
+# version 1
+
+CACHE
+
+# Reveal.js files
+reveal/css/main.css
+reveal/css/theme/default.css
+reveal/lib/css/zenburn.css
+
+# Presentation JS code
+presentation.js
+
+NETWORK
+*
