@@ -1,6 +1,6 @@
 CACHE MANIFEST
 
-# version 1
+# version 2
 
 CACHE:
 
@@ -15,22 +15,24 @@ reveal/lib/font/league_gothic-webfont.woff
 
 # Presentation
 
-img/webos.png
-img/ios.png
-img/wp7.png
-img/skills.png
-img/blackberry.png
-img/java.png
-img/html5-logo.png
-img/meego.png
 img/android.png
-img/jolla.png
 img/bada.png
+img/blackberry.png
+img/headcount.png
+img/html5-logo.png
 img/html5.png
-img/mobile-strategy.png
+img/ios.png
+img/java.png
+img/jolla.png
 img/lightsaber.png
+img/meego.png
+img/mobile-strategy.png
+img/offices.png
+img/skills.png
 img/smartphone-shares.png
 img/symbian.png
+img/webos.png
+img/wp7.png
 
 presentation.js
 
