@@ -2,7 +2,7 @@ CACHE MANIFEST
 
 # version 1
 
-CACHE
+CACHE:
 
 # Reveal.js files
 reveal/css/main.css
@@ -34,5 +34,5 @@ img/symbian.png
 
 presentation.js
 
-NETWORK
+NETWORK:
 *
